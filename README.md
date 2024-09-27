@@ -3,7 +3,7 @@
 Code for *"GNAPing On the Job: Attacking and Defending Facial Detection on Edge Devices"* (currently under review)
 
 <p align='center'>
-  <img src='imgs/night-test.png' width='700'/>
+  <img src='images/Attack-Overview-Figure.png' width='700'/>
 </p>
 
 ## Introduction
