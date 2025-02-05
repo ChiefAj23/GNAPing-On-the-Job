@@ -8,7 +8,7 @@ Code for *"GNAPing On the Job: Attacking and Defending Facial Detection on Edge 
 
 ## Introduction
 
-The **GNAP Attack and GNAG Defense** repository implements and evaluates advanced adversarial attacks and defenses for facial detection systems on resource-constrained edge devices. It provides the code for the **Guided inspired Noise Attack Pyramid (GNAP)**, a novel adversarial attack designed to degrade facial recognition accuracy, and the **Guided Noise Attack Guard (GNAG)**, a defense strategy that restores system robustness. Both techniques are tailored for real-world adversarial scenarios on edge devices, focusing on maintaining high performance and security under constrained computational resources. This repository accompanies the research paper *"GNAPing On the Job: Attacking and Defending Facial Detection on Edge Devices"* (currently under review).
+The **GNAP Attack and GNAG Defense** repository implements and evaluates advanced adversarial attacks and defenses for facial detection systems on resource-constrained edge devices. It provides the code for the **Guided inspired Noise Attack Pyramid (GNAP)**, a novel adversarial attack designed to degrade facial recognition accuracy, and the **Guided Noise Attack Guard (GNAG)**, a defense strategy that restores system robustness. Both techniques are tailored for real-world adversarial scenarios on edge devices, focusing on maintaining high performance and security under constrained computational resources. This repository accompanies the research paper *"GNAPing On the Job: Attacking and Defending Facial Detection on Edge Devices"* (Accepted in IEEE SoutheastCon 2025).
 
 ## Prerequisites
 
