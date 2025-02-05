@@ -1,6 +1,6 @@
 # GNAP
 
-Code for *"GNAPing On the Job: Attacking and Defending Facial Detection on Edge Devices"* (currently under review)
+Code for *"GNAPing On the Job: Attacking and Defending Facial Detection on Edge Devices"* (Accepted in IEEE SoutheastCon 2025)
 
 <p align='center'>
   <img src='images/Attack-Overview-Figure.png' width='700'/>
