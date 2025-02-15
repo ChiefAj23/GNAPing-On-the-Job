@@ -60,6 +60,7 @@ clean_image.py: Adjusts the defense dynamically for clean images.
 
 ## Result 
 The table below shows that the GNAP Model reduces the system’s confidence from 0.99 to 0.82 under attack. After applying the (name of defense) defense, confidence is restored to 0.98, demonstrating the defense’s effectiveness in mitigating the attack's impact.
+
 # Attack and Defense Effectiveness on LFW Dataset (Caffe)
 | Attack Status           | Mean Highest Confidence |
 |-------------------------|-------------------------|
@@ -68,6 +69,9 @@ The table below shows that the GNAP Model reduces the system’s confidence from
 | Laplacian Pyramid       | 0.99                    |
 | GNAP Model Attack [Ours]| 0.82                    |
 | GNAG Defense [Ours]     | 0.98                    |
+
+## Q&A
+Questions are welcome via asolanki42@tntech.edu
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
