@@ -1,6 +1,6 @@
 # GNAP
 
-Code for *"GNAPing On the Job: Attacking and Defending Facial Detection on Edge Devices"* (Accepted in IEEE SoutheastCon 2025)
+Code for *"GNAPing On the Job: Attacking and Defending Facial Detection on Edge Devices"* (Published in IEEE SoutheastCon 2025) (Presented in SoutheastCon 2025 Conference by Ryan Taylor Thornton)
 
 <p align='center'>
   <img src='images/Attack-Overview-Figure.png' width='700'/>
@@ -71,7 +71,7 @@ The table below shows that the GNAP Model reduces the system’s confidence from
 | GNAG Defense [Ours]     | 0.98                    |
 
 ## Q&A
-Questions are welcome via asolanki42@tntech.edu
+Questions are welcome via asolanki42@tntech.edu, ryan.thornton@lander.edu
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
