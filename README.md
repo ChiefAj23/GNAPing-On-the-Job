@@ -75,11 +75,8 @@ Questions are welcome via asolanki42@tntech.edu, ryan.thornton@lander.edu
 
 ## Acknowledgement
 This research is partially supported by Qatar National
-Research Foundation (NPRP14S-0413-210206), National Sci-
-ence Foundation (NSF-REU 2349104) and Faculty Research
-Grant 2023-24 from the Office of Research at Tennessee Tech Uni-
-versity, Tennessee Tech University’s Center for Manufacturing
-Research
+Research Foundation (NPRP14S-0413-210206), National Science Foundation (NSF-REU 2349104) and Faculty Research
+Grant 2023-24 from the Office of Research at Tennessee Tech University, Tennessee Tech University’s Center for Manufacturing Research
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
