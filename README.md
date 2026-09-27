@@ -1,6 +1,6 @@
 # GNAP
 
-Code for *"GNAPing On the Job: Attacking and Defending Facial Detection on Edge Devices"* (Published in IEEE SoutheastCon 2025) (Presented in SoutheastCon 2025 Conference by Ryan Taylor Thornton)
+Code for *"GNAPing On the Job: Attacking and Defending Facial Detection on Edge Devices"* (Published in IEEE SoutheastCon 2025) (Presented at the SoutheastCon 2025 Conference by Abhijeet Solanki)
 
 📄 **Paper**: [IEEE Xplore (DOI: 10.1109/SoutheastCon56624.2025.10971676)](https://doi.org/10.1109/SoutheastCon56624.2025.10971676)
 
