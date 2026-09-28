@@ -16,52 +16,47 @@ The **GNAP Attack and GNAG Defense** repository implements and evaluates advance
 
 To get started, you’ll need the following dependencies installed:
 
-- Python 3.6+
-- TensorFlow or PyTorch (depending on your model)
-- OpenCV
-- NumPy
+- Python 3.9+
+- NumPy and Matplotlib
+- OpenCV with the contrib modules (the attack and defense use `cv2.ximgproc.guidedFilter`)
+- PyTorch, for `image_attacker.py` (it loads YOLOv5 through `torch.hub`)
+- OpenCV's ResNet-10 SSD face detector (`deploy.prototxt.txt` and `res10_300x300_ssd_iter_140000.caffemodel`), for the scripts that measure face-detection confidence
 
-You can install the dependencies using the following command:
+You can install the Python dependencies using the following command:
 
 ```bash
-pip install -r requirements.txt
+pip install numpy matplotlib opencv-contrib-python torch
 ```
+
+Each script reads its input folder, image or model paths from variables set in the file (marked "Update this"). Point them at your copies before running it.
 ## Dataset
 To reproduce the experiments from the paper, you can use the Labeled Faces in the Wild (LFW) dataset.
 
 ## GNAP Attack
-attack_images.py: This script applies the GNAP attack on a set of still 
-
-images. You can specify the input directory containing images to attack.
-
-Example usage:
+`attack/attack_images.py`: applies the GNAP attack to a folder of still images.
 
 ```bash
-python attack_images.py --input_dir /path/to/images --output_dir /path/to/save
+python attack/attack_images.py
 ```
-attack_lfw.py: Performs both attack and defense on the LFW dataset. Outputs include the modified images and calculated confidence scores.
-
-Example usage:
+`attack/attack_lfw.py`: performs both attack and defense on the LFW dataset. Outputs include the modified images and calculated confidence scores.
 
 ```bash
-python attack_lfw.py --lfw_dir /path/to/lfw --output_dir /path/to/save
+python attack/attack_lfw.py
 ```
-image_attacker.py: Uses a YOLO model to calculate confidence scores after applying the attack.
+`attack/image_attacker.py`: uses a YOLOv5 model to calculate confidence scores after applying the attack.
 
-laplace_fps.py: This script runs a real-time attack on video input, measuring FPS and attack impact.
+`attack/laplace_fps.py`: runs a real-time attack on webcam video, measuring FPS and attack impact.
 
 ## GNAG Defense
-defend_image.py: Apply the GNAG defense on images that have already been attacked. This can be used to restore the image quality and accuracy of the model.
-
-Example usage:
+`defense/defend_image.py`: applies the GNAG defense to an image that has already been attacked, restoring image quality and the model's accuracy.
 
 ```bash
-python defend_image.py --input_dir /path/to/attacked_images --output_dir /path/to/save
+python defense/defend_image.py
 ```
-clean_image.py: Adjusts the defense dynamically for clean images.
+`defense/clean_image.py`: adjusts the defense dynamically for clean images.
 
 ## Result 
-The table below shows that the GNAP Model reduces the system’s confidence from 0.99 to 0.82 under attack. After applying the (name of defense) defense, confidence is restored to 0.98, demonstrating the defense’s effectiveness in mitigating the attack's impact.
+The table below shows that the GNAP Model reduces the system’s confidence from 0.99 to 0.82 under attack. After applying the GNAG defense, confidence is restored to 0.98, demonstrating the defense’s effectiveness in mitigating the attack's impact.
 
 # Attack and Defense Effectiveness on LFW Dataset (Caffe)
 | Attack Status           | Mean Highest Confidence |
