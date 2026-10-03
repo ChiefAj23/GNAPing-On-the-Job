@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "GNAPing On the Job: Attacking and Defending Facial Detection on Edge Devices"
+type: software
+license: MIT
+repository-code: "https://github.com/ChiefAj23/GNAPing-On-the-Job"
+authors:
+  - family-names: "Solanki"
+    given-names: "Abhijeet"
+    affiliation: "Tennessee Technological University"
+  - family-names: "Thornton"
+    given-names: "Ryan Taylor"
+    affiliation: "Lander University"
+  - family-names: "Hasan"
+    given-names: "Syed Rafay"
+    affiliation: "Tennessee Technological University"
+  - family-names: "Qidwai"
+    given-names: "Uvais"
+    affiliation: "Qatar University"
+preferred-citation:
+  type: conference-paper
+  title: "GNAPing On the Job: Attacking and Defending Facial Detection on Edge Devices"
+  authors:
+    - family-names: "Solanki"
+      given-names: "Abhijeet"
+      affiliation: "Tennessee Technological University"
+    - family-names: "Thornton"
+      given-names: "Ryan Taylor"
+      affiliation: "Lander University"
+    - family-names: "Hasan"
+      given-names: "Syed Rafay"
+      affiliation: "Tennessee Technological University"
+    - family-names: "Qidwai"
+      given-names: "Uvais"
+      affiliation: "Qatar University"
+  collection-title: "SoutheastCon 2025"
+  publisher:
+    name: "IEEE"
+  year: 2025
+  month: 3
+  start: 918
+  end: 923
+  doi: "10.1109/SoutheastCon56624.2025.10971676"
